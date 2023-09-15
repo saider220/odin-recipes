@@ -1,0 +1,23 @@
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: rgb(213, 201, 199);
+    border-radius: 6px;
+}
+
+.card ul {
+    list-style: none;
+}
+
+.card img {
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+    
+}
