@@ -47,8 +47,9 @@ h1 {
 }
 
 .icons {
+    position: relative;
     width: 1rem;
-    vertical-align: middle;
+    top: 0.125rem;
 }
 
 .card:hover {
